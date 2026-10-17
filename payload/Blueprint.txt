@@ -2,10 +2,62 @@
   "center": 10.0,
   "parts": [
     {
-      "n": "Fairing",
+      "n": "RCS",
+      "p": {
+        "x": 13.0,
+        "y": 82.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 13.0,
+        "y": 89.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 7.0,
+        "y": 89.5
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 7.0,
+        "y": 82.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "Fuel Tank",
       "p": {
         "x": 10.0,
-        "y": 78.0
+        "y": 82.0
       },
       "o": {
         "x": 1.0,
@@ -16,71 +68,19 @@
       "N": {
         "width_original": 6.0,
         "width_a": 6.0,
-        "width_b": 7.0,
-        "height": 1.0,
-        "force_percent": 0.800000011920929
-      },
-      "B": {
-        "occupied_a": false,
-        "detach_edge": true,
-        "adapt_to_tank": true
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 0.0
       },
       "T": {
-        "fragment": "",
         "color_tex": "_",
         "shape_tex": "_"
       }
     },
     {
-      "n": "Fairing",
+      "n": "Probe",
       "p": {
         "x": 10.0,
-        "y": 79.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 7.0,
-        "width_a": 7.0,
-        "width_b": 7.0,
-        "height": 3.0,
-        "force_percent": 0.949999988079071
-      },
-      "B": {
-        "occupied_a": true,
-        "detach_edge": true,
-        "adapt_to_tank": true
-      },
-      "T": {
-        "fragment": "",
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Strut 2",
-      "p": {
-        "x": 9.5,
-        "y": 86.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 8.0
-      }
-    },
-    {
-      "n": "Telecommunication Dish",
-      "p": {
-        "x": 8.0,
         "y": 82.0
       },
       "o": {
@@ -90,255 +90,13 @@
       },
       "t": "-Infinity",
       "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 8.0,
-        "y": 79.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Ion Drive",
-      "p": {
-        "x": 8.0,
-        "y": 79.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
+        "width": 2.0
       }
     },
     {
       "n": "Probe",
       "p": {
-        "x": 8.0,
-        "y": 80.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 8.0,
-        "y": 81.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Solar Panel Working",
-      "p": {
-        "x": 7.0,
-        "y": 80.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 9.0,
-        "y": 80.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 12.0,
-        "y": 79.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Ion Drive",
-      "p": {
-        "x": 12.0,
-        "y": 79.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Solar Panel Working",
-      "p": {
-        "x": 13.0,
-        "y": 80.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 12.0,
-        "y": 80.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 11.0,
-        "y": 80.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
-      "n": "Telecommunication Dish",
-      "p": {
-        "x": 12.0,
-        "y": 82.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 12.0,
-        "y": 81.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 8.0,
+        "x": 10.0,
         "y": 83.0
       },
       "o": {
@@ -348,22 +106,14 @@
       },
       "t": "-Infinity",
       "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
+        "width": 2.0
       }
     },
     {
       "n": "Telecommunication Dish",
       "p": {
-        "x": 8.0,
-        "y": 86.0
+        "x": 10.0,
+        "y": 84.5
       },
       "o": {
         "x": 1.0,
@@ -381,246 +131,9 @@
       }
     },
     {
-      "n": "Ion Drive",
-      "p": {
-        "x": 8.0,
-        "y": 83.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 8.0,
-        "y": 84.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 8.0,
-        "y": 85.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Solar Panel Working",
-      "p": {
-        "x": 7.0,
-        "y": 84.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 9.0,
-        "y": 84.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
       "n": "Fuel Tank",
       "p": {
-        "x": 12.0,
-        "y": 83.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Telecommunication Dish",
-      "p": {
-        "x": 12.0,
-        "y": 86.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
-    },
-    {
-      "n": "Ion Drive",
-      "p": {
-        "x": 12.0,
-        "y": 83.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 12.0,
-        "y": 84.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 12.0,
-        "y": 85.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Solar Panel Working",
-      "p": {
-        "x": 13.0,
-        "y": 84.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 11.0,
-        "y": 84.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 8.0,
-        "y": 87.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Telecommunication Dish",
-      "p": {
-        "x": 8.0,
+        "x": 10.0,
         "y": 90.0
       },
       "o": {
@@ -630,99 +143,11 @@
       },
       "t": "-Infinity",
       "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
-    },
-    {
-      "n": "Ion Drive",
-      "p": {
-        "x": 8.0,
-        "y": 87.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 8.0,
-        "y": 88.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 8.0,
-        "y": 89.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 9.0,
-        "y": 88.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": -1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 12.0,
-        "y": 87.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
+        "width_original": 4.0,
+        "width_a": 6.0,
+        "width_b": 4.0,
+        "height": 2.0,
+        "fuel_percent": 0.0
       },
       "T": {
         "color_tex": "_",
@@ -730,26 +155,10 @@
       }
     },
     {
-      "n": "Ion Drive",
+      "n": "Fuel Tank",
       "p": {
-        "x": 12.0,
-        "y": 87.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 12.0,
-        "y": 89.0
+        "x": 10.0,
+        "y": 92.0
       },
       "o": {
         "x": 1.0,
@@ -758,69 +167,165 @@
       },
       "t": "-Infinity",
       "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
+        "width_original": 3.0,
+        "width_a": 4.0,
+        "width_b": 3.0,
+        "height": 1.0,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Solar Panel Working Big",
+      "p": {
+        "x": 7.0,
+        "y": 86.0
+      },
+      "o": {
+        "x": -1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state_target": 0.0,
+        "current_state": 0.0
+      }
+    },
+    {
+      "n": "Solar Panel Working Big",
+      "p": {
+        "x": 13.0,
+        "y": 86.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "state_target": 0.0,
+        "current_state": 0.0
+      }
+    },
+    {
+      "n": "Fuel Tank",
+      "p": {
+        "x": 10.0,
+        "y": 93.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 2.0,
+        "width_a": 3.0,
+        "width_b": 2.0,
+        "height": 1.0,
+        "fuel_percent": 0.0
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
       }
     },
     {
       "n": "Docking Port",
       "p": {
-        "x": 11.0,
-        "y": 88.0
+        "x": 10.0,
+        "y": 94.5
       },
       "o": {
         "x": 1.0,
         "y": 1.0,
-        "z": 270.0
+        "z": 0.0
       },
       "t": "-Infinity",
       "N": {
         "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
+        "force_multiplier": 0.5,
+        "sep_force_multiplier": 0.5
       }
     },
     {
-      "n": "Telecommunication Dish",
+      "n": "Fuel Tank",
       "p": {
-        "x": 12.0,
-        "y": 90.0
+        "x": 10.0,
+        "y": 74.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width_original": 6.0,
+        "width_a": 6.0,
+        "width_b": 6.0,
+        "height": 8.0,
+        "fuel_percent": 0.20000000298023224
+      },
+      "T": {
+        "color_tex": "_",
+        "shape_tex": "_"
+      }
+    },
+    {
+      "n": "Engine Frontier",
+      "p": {
+        "x": 10.0,
+        "y": 74.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false,
+        "heat_on__for_creative_use": true,
+        "gimbal_on": true
+      }
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 13.0,
+        "y": 74.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity"
+    },
+    {
+      "n": "RCS",
+      "p": {
+        "x": 7.0,
+        "y": 74.5
       },
       "o": {
         "x": -1.0,
         "y": 1.0,
         "z": 0.0
       },
-      "t": "-Infinity",
-      "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
+      "t": "-Infinity"
     },
     {
-      "n": "Strut 2",
+      "n": "Solar Panel Working Big",
       "p": {
-        "x": 9.5,
-        "y": 88.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 270.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "size": 2.0
-      }
-    },
-    {
-      "n": "Strut",
-      "p": {
-        "x": 9.5,
+        "x": 13.0,
         "y": 78.0
       },
       "o": {
@@ -830,60 +335,15 @@
       },
       "t": "-Infinity",
       "N": {
-        "size": 1.0
+        "state_target": 0.0,
+        "current_state": 0.0
       }
     },
     {
-      "n": "Probe",
-      "p": {
-        "x": 12.0,
-        "y": 88.0
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Fairing",
-      "p": {
-        "x": 10.0,
-        "y": 82.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 7.0,
-        "width_a": 7.0,
-        "width_b": 7.0,
-        "height": 3.0,
-        "force_percent": 1.0
-      },
-      "B": {
-        "occupied_a": true,
-        "detach_edge": true,
-        "adapt_to_tank": true
-      },
-      "T": {
-        "fragment": "",
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Solar Panel Working",
+      "n": "Solar Panel Working Big",
       "p": {
         "x": 7.0,
-        "y": 88.0
+        "y": 78.0
       },
       "o": {
         "x": -1.0,
@@ -897,10 +357,10 @@
       }
     },
     {
-      "n": "Solar Panel Working",
+      "n": "Ion Drive",
       "p": {
-        "x": 13.0,
-        "y": 88.0
+        "x": 7.5,
+        "y": 74.0
       },
       "o": {
         "x": 1.0,
@@ -908,16 +368,63 @@
         "z": 0.0
       },
       "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
+      "B": {
+        "engine_on": false
       }
     },
     {
-      "n": "Fairing",
+      "n": "Ion Drive",
+      "p": {
+        "x": 8.5,
+        "y": 74.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Ion Drive",
+      "p": {
+        "x": 11.5,
+        "y": 74.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Ion Drive",
+      "p": {
+        "x": 12.5,
+        "y": 74.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "B": {
+        "engine_on": false
+      }
+    },
+    {
+      "n": "Battery_New",
       "p": {
         "x": 10.0,
-        "y": 85.0
+        "y": 81.0
       },
       "o": {
         "x": 1.0,
@@ -926,28 +433,55 @@
       },
       "t": "-Infinity",
       "N": {
-        "width_original": 7.0,
-        "width_a": 7.0,
-        "width_b": 7.0,
-        "height": 2.0,
+        "width": 3.0,
+        "powerPercent": 1.0
+      }
+    },
+    {
+      "n": "Battery_New",
+      "p": {
+        "x": 10.0,
+        "y": 81.5
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 3.0,
+        "powerPercent": 1.0
+      }
+    },
+    {
+      "n": "Separator",
+      "p": {
+        "x": 10.0,
+        "y": 70.0
+      },
+      "o": {
+        "x": 1.0,
+        "y": 1.0,
+        "z": 0.0
+      },
+      "t": "-Infinity",
+      "N": {
+        "width": 6.0,
+        "width_b": 6.0,
+        "height": 3.5,
+        "height_max": 6.0,
         "force_percent": 1.0
       },
-      "B": {
-        "occupied_a": true,
-        "detach_edge": true,
-        "adapt_to_tank": true
-      },
       "T": {
-        "fragment": "",
-        "color_tex": "_",
-        "shape_tex": "_"
+        "color_tex": "Color_Black"
       }
     },
     {
-      "n": "Fairing Cone Round",
+      "n": "Fairing Cone",
       "p": {
         "x": 10.0,
-        "y": 87.0
+        "y": 94.0
       },
       "o": {
         "x": 1.0,
@@ -956,9 +490,10 @@
       },
       "t": "-Infinity",
       "N": {
-        "force_percent": 1.0,
-        "width_original": 6.0,
-        "width": 7.0
+        "width_original": 2.0,
+        "width": 1.6000000238418579,
+        "height": 2.0,
+        "force_percent": 1.0
       },
       "B": {
         "detach_edge": true,
@@ -968,264 +503,6 @@
         "fragment": "",
         "color_tex": "_",
         "shade_tex": "_"
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": 89.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 10.0,
-        "y": 90.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Ion Drive",
-      "p": {
-        "x": 10.0,
-        "y": 89.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 10.0,
-        "y": 91.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Telecommunication Dish",
-      "p": {
-        "x": 10.0,
-        "y": 92.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
-    },
-    {
-      "n": "Solar Panel Working",
-      "p": {
-        "x": 11.0,
-        "y": 90.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 10.0,
-        "y": 89.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.00179122E-05
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
-      "n": "Fuel Tank",
-      "p": {
-        "x": 10.0,
-        "y": 93.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width_original": 2.0,
-        "width_a": 2.0,
-        "width_b": 2.0,
-        "height": 1.0,
-        "fuel_percent": 0.15000000596046448
-      },
-      "T": {
-        "color_tex": "_",
-        "shape_tex": "_"
-      }
-    },
-    {
-      "n": "Ion Drive",
-      "p": {
-        "x": 10.0,
-        "y": 93.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "B": {
-        "engine_on": false
-      }
-    },
-    {
-      "n": "Battery_New",
-      "p": {
-        "x": 10.0,
-        "y": 95.5
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 1.0,
-        "powerPercent": 1.0
-      }
-    },
-    {
-      "n": "Telecommunication Dish",
-      "p": {
-        "x": 10.0,
-        "y": 96.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state": 0.0,
-        "width": 1.0,
-        "height": 1.0
-      },
-      "B": {
-        "isOn": false
-      }
-    },
-    {
-      "n": "Probe",
-      "p": {
-        "x": 10.0,
-        "y": 94.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 2.0
-      }
-    },
-    {
-      "n": "Docking Port",
-      "p": {
-        "x": 10.0,
-        "y": 93.0
-      },
-      "o": {
-        "x": 1.0,
-        "y": 1.0,
-        "z": 1.00179122E-05
-      },
-      "t": "-Infinity",
-      "N": {
-        "width": 0.95,
-        "force_multiplier": 0.0,
-        "sep_force_multiplier": 1.0
-      }
-    },
-    {
-      "n": "Solar Panel Working",
-      "p": {
-        "x": 9.0,
-        "y": 94.5
-      },
-      "o": {
-        "x": -1.0,
-        "y": 1.0,
-        "z": 0.0
-      },
-      "t": "-Infinity",
-      "N": {
-        "state_target": 0.0,
-        "current_state": 0.0
       }
     }
   ],

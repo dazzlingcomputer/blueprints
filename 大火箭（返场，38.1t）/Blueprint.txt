@@ -1680,12 +1680,26 @@
     {
       "stageId": 6,
       "partIndexes": [
+        12,
+        9
+      ]
+    },
+    {
+      "stageId": 7,
+      "partIndexes": [
+        12,
+        9
+      ]
+    },
+    {
+      "stageId": 8,
+      "partIndexes": [
         13,
         10
       ]
     },
     {
-      "stageId": 7,
+      "stageId": 9,
       "partIndexes": [
         26,
         25
